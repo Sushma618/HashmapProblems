@@ -1,0 +1,12 @@
+import java.util.*;
+public class Ehashmapbasic {
+    public static void main(String[] args) {
+        HashMap<Integer, Integer> hm=new HashMap<>();
+        hm.put(1,2);
+        hm.put(339,11);
+        System.out.println(hm.get(1));
+        System.out.println(hm.get(339));
+
+    }
+    
+}
